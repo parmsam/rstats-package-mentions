@@ -9,7 +9,8 @@
 ## Goal
 
 The goal of rstats-package-mentions is to get package names mentioned in
-\#rstats tweets within the past few days.
+\#rstats tweets within the past few days. Try using {targets} to build a
+pipeline.
 
 ## Limitations
 

@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 ## Goal
-The goal of rstats-package-mentions is to get package names mentioned in #rstats tweets within the past few days.
+The goal of rstats-package-mentions is to get package names mentioned in #rstats tweets within the past few days. Try using {targets} to build a pipeline.
 
 ## Limitations
 Filters for package names following the curly bracket syntax ({dplyr} for example).

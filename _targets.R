@@ -5,7 +5,7 @@
 
 # Load packages required to define the pipeline:
 library(targets)
-# library(tarchetypes) # Load other packages as needed. # nolint
+library(tarchetypes) # Load other packages as needed. # nolint
 
 # Set target options:
 tar_option_set(
@@ -53,5 +53,6 @@ list(
   tar_target(tweets_plot,
              plot_tweet_freq(pkg_mentions)),
   tar_target(pos_gran_links,
-             gen_cran_links(pkg_mentions))
+             gen_cran_links(pkg_mentions)),
+  tar_render(readme, "README.Rmd")
 )

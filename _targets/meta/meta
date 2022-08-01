@@ -1,0 +1,14 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+data|stem|7629f800f01cdf0a|4793d1f47d8d9f3e|722f4eb93ba547d7|1588979285||t19205.0133979008s|2fdfc319785bed4c|1141778|rds|local|vector|||24.455||
+gen_cran_links|function|ff6c9308349aeb0c|||||||||||||||
+get_tweets|function|02dcbb37c8fe669f|||||||||||||||
+isolate_tweets|function|33569335cb9e5dfe|||||||||||||||
+isolated|stem|3e6b9b49767c1b21|602690fc8520a748|e4c3907bc3e3d688|626062401||t19205.0133987179s|ccd66685951e4918|294077|rds|local|vector|||0.008||
+packages_mentioned|stem|97be002578869a84|1cc3cdcdccd65701|f0e7d78fbd46e944|-2057629849||t19204.8927140563s|78adb57c604e593d|181|rds|local|vector|||0.032||
+pkg_mentions|stem|1ee7782b1cae74ed|1cc3cdcdccd65701|97da185f3bfc5093|-705451895||t19205.0223445026s|ad32f0e2900aab2f|880|rds|local|vector|||0.064||
+plot_tweet_freq|function|d9b005ad856bd13b|||||||||||||||
+pos_gran_links|stem|e26d78f54fbbf2f4|d528ed03a9507432|fccae8f563c23669|1903224124||t19205.0223450024s|ccdde350a69eead0|1371|rds|local|vector|||0.002||
+save_all_tweets|function|4d4c4939c72364fb|||||||||||||||
+save_wrangle_tweets|function|9b9ca1e4ddc05653|||||||||||||||
+tweets_plot|stem|4aa46110c8e07f67|540a61b9748b744d|112c7f34af5bc6ea|-780105702||t19205.0223449054s|15148fc3a2e5c27f|39497|rds|local|vector|||0.01||
+wrangle_tweets|function|ca29f47549423b7d|||||||||||||||

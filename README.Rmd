@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+library(dplyr)
+library(targets)
+library(gt)
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# rstats-package-mentions
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Goal
+The goal of rstats-package-mentions is to get package names mentioned in #rstats tweets within the past few days.
+
+## Limitations
+Filters for package names following the curly bracket syntax ({dplyr} for example).
+
+## Quick results
+What packages were most frequently mentioned in Tweets from the last 7 days?
+
+```{r freq, echo = FALSE}
+# tar_read(pkg_mentions) %>% pull(et) %>% .[!is.na(.) & . != ""]
+# tar_read(pkg_mentions) %>% slice_max(n, n=10) %>% gt() %>%
+#     cols_label(et = "Package", n = "Number of mentions")
+tar_read(tweets_plot)
+```
+

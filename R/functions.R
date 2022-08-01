@@ -60,7 +60,7 @@ plot_tweet_freq <-
       geom_col(fill = "lightblue", color = "black") +
       labs(
         title = glue(
-          "Top {limit} {hashtag} packages Twitter mentions in last few days"
+          "{limit} most mentioned packages on {hashtag} Twitter in last few days"
         ),
         y = "Package",
         x = "Count"

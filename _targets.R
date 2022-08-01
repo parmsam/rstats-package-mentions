@@ -19,6 +19,7 @@ tar_option_set(
     "here",
     "readr",
     "forcats",
+    "lubridate",
     "glue"
   ),
   # packages that your targets need to run
